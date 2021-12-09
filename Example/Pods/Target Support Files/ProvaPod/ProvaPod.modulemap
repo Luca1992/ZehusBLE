@@ -1,0 +1,6 @@
+framework module ProvaPod {
+  umbrella header "ProvaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

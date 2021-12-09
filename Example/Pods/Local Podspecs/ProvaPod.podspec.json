@@ -1,0 +1,40 @@
+{
+  "name": "ProvaPod",
+  "version": "0.1.0",
+  "summary": "A short description of ProvaPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Luca/ProvaPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Luca": "lucadonetti@libero.it"
+  },
+  "source": {
+    "git": "https://github.com/Luca/ProvaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source_files": "ProvaPod/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Bluejay": [
+      "~> 0.8"
+    ],
+    "XCGLogger": [
+      "~> 6.1.0"
+    ],
+    "PromiseKit": [
+      "~> 6.8.3"
+    ],
+    "ZIPFoundation": [
+      "~> 0.9.9"
+    ]
+  }
+}
