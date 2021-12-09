@@ -19,6 +19,7 @@
 				7EBA70D1E9F25D2491109D1138F99658 /* PBXTargetDependency */,
 			);
 			name = MyBike_BLE;
+			productName = MyBike_BLE;
 		};
 /* End PBXAggregateTarget section */
 
@@ -102,6 +103,112 @@
 		8D9BB089D0684F72CFC34050D012D38B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141349D2C9B8BEA9BF4DDA0779FA88E1 /* Error.swift */; };
 		8DB374619E3512AA953E3C56918C4CB4 /* Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFF58AEEFFC919A67B0AA89D39D0F3 /* Sendable.swift */; };
 		8EF2831C0B1DEE3259DBA1D86AD8811A /* Archive+BackingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C39473DFAF7AE28905469574778670 /* Archive+BackingConfiguration.swift */; };
+		8FB435F82762271400E9B6C2 /* BLEConstant-Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4356D2762271400E9B6C2 /* BLEConstant-Production.swift */; };
+		8FB435F92762271400E9B6C2 /* BLEProcedure-Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4356E2762271400E9B6C2 /* BLEProcedure-Production.swift */; };
+		8FB435FA2762271400E9B6C2 /* RawPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435702762271400E9B6C2 /* RawPacket.swift */; };
+		8FB435FB2762271400E9B6C2 /* StaticTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435722762271400E9B6C2 /* StaticTest.swift */; };
+		8FB435FC2762271400E9B6C2 /* Packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435732762271400E9B6C2 /* Packets.swift */; };
+		8FB435FD2762271400E9B6C2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435742762271400E9B6C2 /* Test.swift */; };
+		8FB435FE2762271400E9B6C2 /* RemoteThrottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435762762271400E9B6C2 /* RemoteThrottle.swift */; };
+		8FB435FF2762271400E9B6C2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435772762271400E9B6C2 /* Error.swift */; };
+		8FB436002762271400E9B6C2 /* DynamicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435782762271400E9B6C2 /* DynamicTest.swift */; };
+		8FB436012762271400E9B6C2 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435792762271400E9B6C2 /* Commands.swift */; };
+		8FB436022762271400E9B6C2 /* BluetoothSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357A2762271400E9B6C2 /* BluetoothSwitch.swift */; };
+		8FB436032762271400E9B6C2 /* TestAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357B2762271400E9B6C2 /* TestAbstraction.swift */; };
+		8FB436042762271400E9B6C2 /* BLEName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357C2762271400E9B6C2 /* BLEName.swift */; };
+		8FB436052762271400E9B6C2 /* BTObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357D2762271400E9B6C2 /* BTObservers.swift */; };
+		8FB436062762271400E9B6C2 /* TestBench.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357E2762271400E9B6C2 /* TestBench.swift */; };
+		8FB436072762271400E9B6C2 /* TestThreshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4357F2762271400E9B6C2 /* TestThreshold.swift */; };
+		8FB436082762271400E9B6C2 /* CollectionPacketBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435802762271400E9B6C2 /* CollectionPacketBuffer.swift */; };
+		8FB436092762271400E9B6C2 /* RemoteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435822762271400E9B6C2 /* RemoteError.swift */; };
+		8FB4360A2762271400E9B6C2 /* Remote-BLEProcedure-Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435832762271400E9B6C2 /* Remote-BLEProcedure-Production.swift */; };
+		8FB4360B2762271400E9B6C2 /* RemoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435842762271400E9B6C2 /* RemoteTest.swift */; };
+		8FB4360C2762271400E9B6C2 /* RemoteTestAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435852762271400E9B6C2 /* RemoteTestAbstract.swift */; };
+		8FB4360D2762271400E9B6C2 /* RemotePacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435862762271400E9B6C2 /* RemotePacket.swift */; };
+		8FB4360E2762271400E9B6C2 /* RemoteTestThresholds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435872762271400E9B6C2 /* RemoteTestThresholds.swift */; };
+		8FB4360F2762271400E9B6C2 /* BLEProcedure-Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435882762271400E9B6C2 /* BLEProcedure-Bike.swift */; };
+		8FB436102762271400E9B6C2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8FB4358B2762271400E9B6C2 /* .gitkeep */; };
+		8FB436112762271400E9B6C2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8FB4358D2762271400E9B6C2 /* .gitkeep */; };
+		8FB436122762271400E9B6C2 /* BikeBluejay+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4358E2762271400E9B6C2 /* BikeBluejay+Promise.swift */; };
+		8FB436132762271400E9B6C2 /* ZehusServiceInitiatorProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435922762271400E9B6C2 /* ZehusServiceInitiatorProxy.swift */; };
+		8FB436142762271400E9B6C2 /* ZehusServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435932762271400E9B6C2 /* ZehusServiceInitiator.swift */; };
+		8FB436152762271400E9B6C2 /* ZehusDfuOtaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435942762271400E9B6C2 /* ZehusDfuOtaError.swift */; };
+		8FB436162762271400E9B6C2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8FB435962762271400E9B6C2 /* .gitkeep */; };
+		8FB436172762271400E9B6C2 /* SoftdeviceBootloaderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4359A2762271400E9B6C2 /* SoftdeviceBootloaderInfo.swift */; };
+		8FB436182762271400E9B6C2 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4359B2762271400E9B6C2 /* Manifest.swift */; };
+		8FB436192762271400E9B6C2 /* ManifestFirmwareInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4359C2762271400E9B6C2 /* ManifestFirmwareInfo.swift */; };
+		8FB4361A2762271400E9B6C2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4359D2762271400E9B6C2 /* Data.swift */; };
+		8FB4361B2762271400E9B6C2 /* ZipArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4359E2762271400E9B6C2 /* ZipArchive.swift */; };
+		8FB4361C2762271400E9B6C2 /* DFUStreamBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A02762271400E9B6C2 /* DFUStreamBin.swift */; };
+		8FB4361D2762271400E9B6C2 /* DFUStreamHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A12762271400E9B6C2 /* DFUStreamHex.swift */; };
+		8FB4361E2762271400E9B6C2 /* DFUStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A22762271400E9B6C2 /* DFUStream.swift */; };
+		8FB4361F2762271400E9B6C2 /* DFUStreamZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A32762271400E9B6C2 /* DFUStreamZip.swift */; };
+		8FB436202762271400E9B6C2 /* IntelHex2BinConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A52762271400E9B6C2 /* IntelHex2BinConverter.swift */; };
+		8FB436212762271400E9B6C2 /* crc32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A62762271400E9B6C2 /* crc32.swift */; };
+		8FB436222762271400E9B6C2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A72762271400E9B6C2 /* Double.swift */; };
+		8FB436232762271400E9B6C2 /* LoggerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435A92762271400E9B6C2 /* LoggerHelper.swift */; };
+		8FB436242762271400E9B6C2 /* LoggerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435AA2762271400E9B6C2 /* LoggerDelegate.swift */; };
+		8FB436252762271400E9B6C2 /* SecureDFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435AE2762271400E9B6C2 /* SecureDFUExecutor.swift */; };
+		8FB436262762271400E9B6C2 /* SecureDFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435AF2762271400E9B6C2 /* SecureDFUServiceInitiator.swift */; };
+		8FB436272762271400E9B6C2 /* SecureDFUPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B12762271400E9B6C2 /* SecureDFUPacket.swift */; };
+		8FB436282762271400E9B6C2 /* SecureDFUControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B22762271400E9B6C2 /* SecureDFUControlPoint.swift */; };
+		8FB436292762271400E9B6C2 /* ButtonlessDFU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B32762271400E9B6C2 /* ButtonlessDFU.swift */; };
+		8FB4362A2762271400E9B6C2 /* SecureDFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B52762271400E9B6C2 /* SecureDFUPeripheralDelegate.swift */; };
+		8FB4362B2762271400E9B6C2 /* SecureDFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B62762271400E9B6C2 /* SecureDFUPeripheral.swift */; };
+		8FB4362C2762271400E9B6C2 /* SecureDFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435B82762271400E9B6C2 /* SecureDFUService.swift */; };
+		8FB4362D2762271400E9B6C2 /* DFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BA2762271400E9B6C2 /* DFUExecutor.swift */; };
+		8FB4362E2762271400E9B6C2 /* DFUCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BB2762271400E9B6C2 /* DFUCharacteristic.swift */; };
+		8FB4362F2762271400E9B6C2 /* DFUController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BC2762271400E9B6C2 /* DFUController.swift */; };
+		8FB436302762271400E9B6C2 /* DFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BD2762271400E9B6C2 /* DFUPeripheral.swift */; };
+		8FB436312762271400E9B6C2 /* DFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BE2762271400E9B6C2 /* DFUPeripheralDelegate.swift */; };
+		8FB436322762271400E9B6C2 /* DFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435BF2762271400E9B6C2 /* DFUService.swift */; };
+		8FB436332762271400E9B6C2 /* DFUFirmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C12762271400E9B6C2 /* DFUFirmware.swift */; };
+		8FB436342762271400E9B6C2 /* DFUUuidHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C22762271400E9B6C2 /* DFUUuidHelper.swift */; };
+		8FB436352762271400E9B6C2 /* DFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C32762271400E9B6C2 /* DFUServiceInitiator.swift */; };
+		8FB436362762271400E9B6C2 /* DFUStarterPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C52762271400E9B6C2 /* DFUStarterPeripheral.swift */; };
+		8FB436372762271400E9B6C2 /* DFUServiceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C62762271400E9B6C2 /* DFUServiceSelector.swift */; };
+		8FB436382762271400E9B6C2 /* LegacyDFUExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435C92762271400E9B6C2 /* LegacyDFUExecutor.swift */; };
+		8FB436392762271400E9B6C2 /* LegacyDFUServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435CA2762271400E9B6C2 /* LegacyDFUServiceInitiator.swift */; };
+		8FB4363A2762271400E9B6C2 /* DFUPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435CC2762271400E9B6C2 /* DFUPacket.swift */; };
+		8FB4363B2762271400E9B6C2 /* DFUVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435CD2762271400E9B6C2 /* DFUVersion.swift */; };
+		8FB4363C2762271400E9B6C2 /* DFUControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435CE2762271400E9B6C2 /* DFUControlPoint.swift */; };
+		8FB4363D2762271400E9B6C2 /* LegacyDFUPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D02762271400E9B6C2 /* LegacyDFUPeripheral.swift */; };
+		8FB4363E2762271400E9B6C2 /* LegacyDFUPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D12762271400E9B6C2 /* LegacyDFUPeripheralDelegate.swift */; };
+		8FB4363F2762271400E9B6C2 /* LegacyDFUService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D32762271400E9B6C2 /* LegacyDFUService.swift */; };
+		8FB436402762271400E9B6C2 /* DFUPeripheralSelectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D42762271400E9B6C2 /* DFUPeripheralSelectorDelegate.swift */; };
+		8FB436412762271400E9B6C2 /* DFUPeripheralSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D52762271400E9B6C2 /* DFUPeripheralSelector.swift */; };
+		8FB436422762271400E9B6C2 /* DFUServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D62762271400E9B6C2 /* DFUServiceDelegate.swift */; };
+		8FB436432762271400E9B6C2 /* DFUServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D72762271400E9B6C2 /* DFUServiceController.swift */; };
+		8FB436442762271400E9B6C2 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FB435D82762271400E9B6C2 /* Readme.md */; };
+		8FB436452762271400E9B6C2 /* PromiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435D92762271400E9B6C2 /* PromiseButton.swift */; };
+		8FB436462762271400E9B6C2 /* BLEExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435DA2762271400E9B6C2 /* BLEExtension.swift */; };
+		8FB436472762271400E9B6C2 /* BLEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435DB2762271400E9B6C2 /* BLEError.swift */; };
+		8FB436482762271400E9B6C2 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB435DC2762271400E9B6C2 /* Empty.xib */; };
+		8FB436492762271400E9B6C2 /* BLESendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435DD2762271400E9B6C2 /* BLESendable.swift */; };
+		8FB4364A2762271400E9B6C2 /* BLEReadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435DE2762271400E9B6C2 /* BLEReadable.swift */; };
+		8FB4364B2762271400E9B6C2 /* String+ZehusPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435DF2762271400E9B6C2 /* String+ZehusPrefix.swift */; };
+		8FB4364C2762271400E9B6C2 /* CommandReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E02762271400E9B6C2 /* CommandReply.swift */; };
+		8FB4364D2762271400E9B6C2 /* DFUOTAUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E12762271400E9B6C2 /* DFUOTAUpdater.swift */; };
+		8FB4364E2762271400E9B6C2 /* Bluejay+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E22762271400E9B6C2 /* Bluejay+Promise.swift */; };
+		8FB4364F2762271400E9B6C2 /* BLEConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E32762271400E9B6C2 /* BLEConstant.swift */; };
+		8FB436502762271400E9B6C2 /* BLEProcedure-Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E42762271400E9B6C2 /* BLEProcedure-Common.swift */; };
+		8FB436512762271400E9B6C2 /* Remote_BLEConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E62762271400E9B6C2 /* Remote_BLEConstants.swift */; };
+		8FB436522762271400E9B6C2 /* BLEReadable-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E72762271400E9B6C2 /* BLEReadable-Remote.swift */; };
+		8FB436532762271400E9B6C2 /* BLEProcedure-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E82762271400E9B6C2 /* BLEProcedure-Remote.swift */; };
+		8FB436542762271400E9B6C2 /* BLESendable-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435E92762271400E9B6C2 /* BLESendable-Remote.swift */; };
+		8FB436552762271400E9B6C2 /* RemoteBleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435EA2762271400E9B6C2 /* RemoteBleModel.swift */; };
+		8FB436562762271400E9B6C2 /* PowerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435EC2762271400E9B6C2 /* PowerMode.swift */; };
+		8FB436572762271400E9B6C2 /* Maintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435ED2762271400E9B6C2 /* Maintenance.swift */; };
+		8FB436582762271400E9B6C2 /* BikeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435EE2762271400E9B6C2 /* BikeParameters.swift */; };
+		8FB436592762271400E9B6C2 /* BikePlusPowerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435EF2762271400E9B6C2 /* BikePlusPowerMode.swift */; };
+		8FB4365A2762271400E9B6C2 /* BikePowerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F02762271400E9B6C2 /* BikePowerMode.swift */; };
+		8FB4365B2762271400E9B6C2 /* Faults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F12762271400E9B6C2 /* Faults.swift */; };
+		8FB4365C2762271400E9B6C2 /* EolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F22762271400E9B6C2 /* EolData.swift */; };
+		8FB4365D2762271400E9B6C2 /* BikeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F32762271400E9B6C2 /* BikeMode.swift */; };
+		8FB4365E2762271400E9B6C2 /* KickScooterPowerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F42762271400E9B6C2 /* KickScooterPowerMode.swift */; };
+		8FB4365F2762271400E9B6C2 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F52762271400E9B6C2 /* Ride.swift */; };
+		8FB436602762271400E9B6C2 /* BLEConstant-Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB435F62762271400E9B6C2 /* BLEConstant-Bike.swift */; };
+		8FB436612762271400E9B6C2 /* MyBike_BLE-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB435F72762271400E9B6C2 /* MyBike_BLE-Bridging-Header.h */; };
 		8FB958E7A9ECAFA40C3D1BF047514647 /* ObjcExceptionBridging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26276585B491485D83BC61B954F7AA20 /* ObjcExceptionBridging-dummy.m */; };
 		8FCB556593BFA34CFEF2EB1A2F190668 /* DataPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8136A57AA7B6AD8F4945EB309652BFBF /* DataPadding.swift */; };
 		913D21A61141C30CA7D56BB8593B85CC /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55766F67A1DE5AE788C0D972C7F5B6E /* DispatchQueue+XCGAdditions.swift */; };
@@ -272,7 +379,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0091D4A9BB037BDBD5EE87A9E0C97C57 /* Bluejay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bluejay.debug.xcconfig; sourceTree = "<group>"; };
 		00A1B26B66D7B74016849AFBB71EA546 /* Archive+MemoryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+MemoryFile.swift"; path = "Sources/ZIPFoundation/Archive+MemoryFile.swift"; sourceTree = "<group>"; };
 		0509EF3CC9C9659730E59EA4DCB93CFC /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
@@ -295,7 +402,7 @@
 		174B14B4E68DBCFA6D0F9348D4F78E82 /* XCGLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCGLogger.release.xcconfig; sourceTree = "<group>"; };
 		198D37E896B319E9D228F450877BAF28 /* Pods-MyBike_BLE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyBike_BLE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BCCCE2D4F7B8F61F74E51DFE8740E2C /* StartOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartOptions.swift; path = Bluejay/Bluejay/StartOptions.swift; sourceTree = "<group>"; };
-		1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjcExceptionBridging.framework; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFCFC6310ECCD2B60FCDF5B5EBB9C07 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
 		1DF1BB7BD5384CF10653AA2F77DE166B /* ScanAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanAction.swift; path = Bluejay/Bluejay/ScanAction.swift; sourceTree = "<group>"; };
 		1E66A22FC45CC0E1A45215099C6D7DCA /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
@@ -327,7 +434,7 @@
 		445E601B038A6B08411752D1E0B758D8 /* ReadCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReadCharacteristic.swift; path = Bluejay/Bluejay/ReadCharacteristic.swift; sourceTree = "<group>"; };
 		447A6733297F5C38EBCB66DC4279089D /* Bluejay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bluejay-Info.plist"; sourceTree = "<group>"; };
 		4611AED22578268FE7790609074E9D51 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Bluejay/Bluejay/Event.swift; sourceTree = "<group>"; };
-		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BBE37B493B5F567FDA155A620809D2 /* ServiceIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceIdentifier.swift; path = Bluejay/Bluejay/ServiceIdentifier.swift; sourceTree = "<group>"; };
 		49EEA6722EBA1D1840BEEB2A1F2A0641 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
 		49FD1BEDAD7736390B0AD5DA6537B4F4 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
@@ -353,8 +460,8 @@
 		5C233A49183F9B5D969F18F7D862960D /* ZIPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		5C90459E42157E2E8C1DD1DCE1B35397 /* ConnectionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectionObserver.swift; path = Bluejay/Bluejay/ConnectionObserver.swift; sourceTree = "<group>"; };
 		5D61D106A8FB4D4119324A3C5B27DA11 /* CBPeripheralState+ReturnString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CBPeripheralState+ReturnString.swift"; path = "Bluejay/Bluejay/CBPeripheralState+ReturnString.swift"; sourceTree = "<group>"; };
-		5DD0C90C1C7E56D14B2298CB8B8D0258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5E8F20CC218A17F86C3A212CB94BA228 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5DD0C90C1C7E56D14B2298CB8B8D0258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5E8F20CC218A17F86C3A212CB94BA228 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5EB931EC6C92ECEF4BDFE9A01440A024 /* WriteCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WriteCharacteristic.swift; path = Bluejay/Bluejay/WriteCharacteristic.swift; sourceTree = "<group>"; };
 		60FFD8AC9232497B815DC0B1026E07D0 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Bluejay/Bluejay/Queue.swift; sourceTree = "<group>"; };
 		64A54837FF0835AFE6F5ED36B710BB49 /* ANSIColorLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANSIColorLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/ANSIColorLogFormatter.swift; sourceTree = "<group>"; };
@@ -388,6 +495,112 @@
 		8C7DD66C3F93966AE7CF0A01FE737CBC /* Pods-MyBike_BLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyBike_BLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8DE818C553560D2C4731BA5C8EED211A /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
 		8ECC0450D4888E5FC54D0406DC4673B9 /* DisconnectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisconnectHandler.swift; path = Bluejay/Bluejay/DisconnectHandler.swift; sourceTree = "<group>"; };
+		8FB4356D2762271400E9B6C2 /* BLEConstant-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConstant-Production.swift"; sourceTree = "<group>"; };
+		8FB4356E2762271400E9B6C2 /* BLEProcedure-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEProcedure-Production.swift"; sourceTree = "<group>"; };
+		8FB435702762271400E9B6C2 /* RawPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawPacket.swift; sourceTree = "<group>"; };
+		8FB435722762271400E9B6C2 /* StaticTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTest.swift; sourceTree = "<group>"; };
+		8FB435732762271400E9B6C2 /* Packets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packets.swift; sourceTree = "<group>"; };
+		8FB435742762271400E9B6C2 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		8FB435762762271400E9B6C2 /* RemoteThrottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteThrottle.swift; sourceTree = "<group>"; };
+		8FB435772762271400E9B6C2 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8FB435782762271400E9B6C2 /* DynamicTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTest.swift; sourceTree = "<group>"; };
+		8FB435792762271400E9B6C2 /* Commands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		8FB4357A2762271400E9B6C2 /* BluetoothSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSwitch.swift; sourceTree = "<group>"; };
+		8FB4357B2762271400E9B6C2 /* TestAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAbstraction.swift; sourceTree = "<group>"; };
+		8FB4357C2762271400E9B6C2 /* BLEName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEName.swift; sourceTree = "<group>"; };
+		8FB4357D2762271400E9B6C2 /* BTObservers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTObservers.swift; sourceTree = "<group>"; };
+		8FB4357E2762271400E9B6C2 /* TestBench.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBench.swift; sourceTree = "<group>"; };
+		8FB4357F2762271400E9B6C2 /* TestThreshold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreshold.swift; sourceTree = "<group>"; };
+		8FB435802762271400E9B6C2 /* CollectionPacketBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPacketBuffer.swift; sourceTree = "<group>"; };
+		8FB435822762271400E9B6C2 /* RemoteError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteError.swift; sourceTree = "<group>"; };
+		8FB435832762271400E9B6C2 /* Remote-BLEProcedure-Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remote-BLEProcedure-Production.swift"; sourceTree = "<group>"; };
+		8FB435842762271400E9B6C2 /* RemoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTest.swift; sourceTree = "<group>"; };
+		8FB435852762271400E9B6C2 /* RemoteTestAbstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTestAbstract.swift; sourceTree = "<group>"; };
+		8FB435862762271400E9B6C2 /* RemotePacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotePacket.swift; sourceTree = "<group>"; };
+		8FB435872762271400E9B6C2 /* RemoteTestThresholds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTestThresholds.swift; sourceTree = "<group>"; };
+		8FB435882762271400E9B6C2 /* BLEProcedure-Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEProcedure-Bike.swift"; sourceTree = "<group>"; };
+		8FB4358B2762271400E9B6C2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8FB4358D2762271400E9B6C2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8FB4358E2762271400E9B6C2 /* BikeBluejay+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BikeBluejay+Promise.swift"; sourceTree = "<group>"; };
+		8FB435922762271400E9B6C2 /* ZehusServiceInitiatorProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZehusServiceInitiatorProxy.swift; sourceTree = "<group>"; };
+		8FB435932762271400E9B6C2 /* ZehusServiceInitiator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZehusServiceInitiator.swift; sourceTree = "<group>"; };
+		8FB435942762271400E9B6C2 /* ZehusDfuOtaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZehusDfuOtaError.swift; sourceTree = "<group>"; };
+		8FB435962762271400E9B6C2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8FB4359A2762271400E9B6C2 /* SoftdeviceBootloaderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftdeviceBootloaderInfo.swift; sourceTree = "<group>"; };
+		8FB4359B2762271400E9B6C2 /* Manifest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
+		8FB4359C2762271400E9B6C2 /* ManifestFirmwareInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManifestFirmwareInfo.swift; sourceTree = "<group>"; };
+		8FB4359D2762271400E9B6C2 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8FB4359E2762271400E9B6C2 /* ZipArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipArchive.swift; sourceTree = "<group>"; };
+		8FB435A02762271400E9B6C2 /* DFUStreamBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUStreamBin.swift; sourceTree = "<group>"; };
+		8FB435A12762271400E9B6C2 /* DFUStreamHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUStreamHex.swift; sourceTree = "<group>"; };
+		8FB435A22762271400E9B6C2 /* DFUStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUStream.swift; sourceTree = "<group>"; };
+		8FB435A32762271400E9B6C2 /* DFUStreamZip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUStreamZip.swift; sourceTree = "<group>"; };
+		8FB435A52762271400E9B6C2 /* IntelHex2BinConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntelHex2BinConverter.swift; sourceTree = "<group>"; };
+		8FB435A62762271400E9B6C2 /* crc32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = crc32.swift; sourceTree = "<group>"; };
+		8FB435A72762271400E9B6C2 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		8FB435A92762271400E9B6C2 /* LoggerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerHelper.swift; sourceTree = "<group>"; };
+		8FB435AA2762271400E9B6C2 /* LoggerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerDelegate.swift; sourceTree = "<group>"; };
+		8FB435AE2762271400E9B6C2 /* SecureDFUExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUExecutor.swift; sourceTree = "<group>"; };
+		8FB435AF2762271400E9B6C2 /* SecureDFUServiceInitiator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUServiceInitiator.swift; sourceTree = "<group>"; };
+		8FB435B12762271400E9B6C2 /* SecureDFUPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUPacket.swift; sourceTree = "<group>"; };
+		8FB435B22762271400E9B6C2 /* SecureDFUControlPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUControlPoint.swift; sourceTree = "<group>"; };
+		8FB435B32762271400E9B6C2 /* ButtonlessDFU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonlessDFU.swift; sourceTree = "<group>"; };
+		8FB435B52762271400E9B6C2 /* SecureDFUPeripheralDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		8FB435B62762271400E9B6C2 /* SecureDFUPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUPeripheral.swift; sourceTree = "<group>"; };
+		8FB435B82762271400E9B6C2 /* SecureDFUService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDFUService.swift; sourceTree = "<group>"; };
+		8FB435BA2762271400E9B6C2 /* DFUExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUExecutor.swift; sourceTree = "<group>"; };
+		8FB435BB2762271400E9B6C2 /* DFUCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUCharacteristic.swift; sourceTree = "<group>"; };
+		8FB435BC2762271400E9B6C2 /* DFUController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUController.swift; sourceTree = "<group>"; };
+		8FB435BD2762271400E9B6C2 /* DFUPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUPeripheral.swift; sourceTree = "<group>"; };
+		8FB435BE2762271400E9B6C2 /* DFUPeripheralDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		8FB435BF2762271400E9B6C2 /* DFUService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUService.swift; sourceTree = "<group>"; };
+		8FB435C12762271400E9B6C2 /* DFUFirmware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUFirmware.swift; sourceTree = "<group>"; };
+		8FB435C22762271400E9B6C2 /* DFUUuidHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUUuidHelper.swift; sourceTree = "<group>"; };
+		8FB435C32762271400E9B6C2 /* DFUServiceInitiator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUServiceInitiator.swift; sourceTree = "<group>"; };
+		8FB435C52762271400E9B6C2 /* DFUStarterPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUStarterPeripheral.swift; sourceTree = "<group>"; };
+		8FB435C62762271400E9B6C2 /* DFUServiceSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUServiceSelector.swift; sourceTree = "<group>"; };
+		8FB435C92762271400E9B6C2 /* LegacyDFUExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDFUExecutor.swift; sourceTree = "<group>"; };
+		8FB435CA2762271400E9B6C2 /* LegacyDFUServiceInitiator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDFUServiceInitiator.swift; sourceTree = "<group>"; };
+		8FB435CC2762271400E9B6C2 /* DFUPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUPacket.swift; sourceTree = "<group>"; };
+		8FB435CD2762271400E9B6C2 /* DFUVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUVersion.swift; sourceTree = "<group>"; };
+		8FB435CE2762271400E9B6C2 /* DFUControlPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUControlPoint.swift; sourceTree = "<group>"; };
+		8FB435D02762271400E9B6C2 /* LegacyDFUPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDFUPeripheral.swift; sourceTree = "<group>"; };
+		8FB435D12762271400E9B6C2 /* LegacyDFUPeripheralDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDFUPeripheralDelegate.swift; sourceTree = "<group>"; };
+		8FB435D32762271400E9B6C2 /* LegacyDFUService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyDFUService.swift; sourceTree = "<group>"; };
+		8FB435D42762271400E9B6C2 /* DFUPeripheralSelectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUPeripheralSelectorDelegate.swift; sourceTree = "<group>"; };
+		8FB435D52762271400E9B6C2 /* DFUPeripheralSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUPeripheralSelector.swift; sourceTree = "<group>"; };
+		8FB435D62762271400E9B6C2 /* DFUServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUServiceDelegate.swift; sourceTree = "<group>"; };
+		8FB435D72762271400E9B6C2 /* DFUServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUServiceController.swift; sourceTree = "<group>"; };
+		8FB435D82762271400E9B6C2 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		8FB435D92762271400E9B6C2 /* PromiseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseButton.swift; sourceTree = "<group>"; };
+		8FB435DA2762271400E9B6C2 /* BLEExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEExtension.swift; sourceTree = "<group>"; };
+		8FB435DB2762271400E9B6C2 /* BLEError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEError.swift; sourceTree = "<group>"; };
+		8FB435DC2762271400E9B6C2 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		8FB435DD2762271400E9B6C2 /* BLESendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLESendable.swift; sourceTree = "<group>"; };
+		8FB435DE2762271400E9B6C2 /* BLEReadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEReadable.swift; sourceTree = "<group>"; };
+		8FB435DF2762271400E9B6C2 /* String+ZehusPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ZehusPrefix.swift"; sourceTree = "<group>"; };
+		8FB435E02762271400E9B6C2 /* CommandReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReply.swift; sourceTree = "<group>"; };
+		8FB435E12762271400E9B6C2 /* DFUOTAUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUOTAUpdater.swift; sourceTree = "<group>"; };
+		8FB435E22762271400E9B6C2 /* Bluejay+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bluejay+Promise.swift"; sourceTree = "<group>"; };
+		8FB435E32762271400E9B6C2 /* BLEConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEConstant.swift; sourceTree = "<group>"; };
+		8FB435E42762271400E9B6C2 /* BLEProcedure-Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEProcedure-Common.swift"; sourceTree = "<group>"; };
+		8FB435E62762271400E9B6C2 /* Remote_BLEConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remote_BLEConstants.swift; sourceTree = "<group>"; };
+		8FB435E72762271400E9B6C2 /* BLEReadable-Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEReadable-Remote.swift"; sourceTree = "<group>"; };
+		8FB435E82762271400E9B6C2 /* BLEProcedure-Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEProcedure-Remote.swift"; sourceTree = "<group>"; };
+		8FB435E92762271400E9B6C2 /* BLESendable-Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLESendable-Remote.swift"; sourceTree = "<group>"; };
+		8FB435EA2762271400E9B6C2 /* RemoteBleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteBleModel.swift; sourceTree = "<group>"; };
+		8FB435EC2762271400E9B6C2 /* PowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerMode.swift; sourceTree = "<group>"; };
+		8FB435ED2762271400E9B6C2 /* Maintenance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maintenance.swift; sourceTree = "<group>"; };
+		8FB435EE2762271400E9B6C2 /* BikeParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeParameters.swift; sourceTree = "<group>"; };
+		8FB435EF2762271400E9B6C2 /* BikePlusPowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikePlusPowerMode.swift; sourceTree = "<group>"; };
+		8FB435F02762271400E9B6C2 /* BikePowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikePowerMode.swift; sourceTree = "<group>"; };
+		8FB435F12762271400E9B6C2 /* Faults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faults.swift; sourceTree = "<group>"; };
+		8FB435F22762271400E9B6C2 /* EolData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EolData.swift; sourceTree = "<group>"; };
+		8FB435F32762271400E9B6C2 /* BikeMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeMode.swift; sourceTree = "<group>"; };
+		8FB435F42762271400E9B6C2 /* KickScooterPowerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KickScooterPowerMode.swift; sourceTree = "<group>"; };
+		8FB435F52762271400E9B6C2 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		8FB435F62762271400E9B6C2 /* BLEConstant-Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConstant-Bike.swift"; sourceTree = "<group>"; };
+		8FB435F72762271400E9B6C2 /* MyBike_BLE-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyBike_BLE-Bridging-Header.h"; sourceTree = "<group>"; };
 		9026BF0304DA9C72F19A9262F5D22F86 /* BackgroundRestoreMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundRestoreMode.swift; path = Bluejay/Bluejay/BackgroundRestoreMode.swift; sourceTree = "<group>"; };
 		90C628FBEF5B081F3526745E7E2023FB /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		9133D15EDD56F620822806EA47E7052E /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
@@ -400,11 +613,11 @@
 		9BCF8582E66CA29E869FB33407B686D7 /* URL+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+XCGAdditions.swift"; path = "Sources/XCGLogger/Extensions/URL+XCGAdditions.swift"; sourceTree = "<group>"; };
 		9BF3B9411B0226BE9AF94219D7A9A9E4 /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
 		9C5901CCDA1DB8993A360AAEBDF106C6 /* SynchronizedPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedPeripheral.swift; path = Bluejay/Bluejay/SynchronizedPeripheral.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07BD3FC087B9A0B19AAF73A858EFBE9 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = Sources/XCGLogger/Misc/HelperFunctions.swift; sourceTree = "<group>"; };
 		A8D3DBB2CD339CE5A97813B311326B5C /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Bluejay/Bluejay/Operation.swift; sourceTree = "<group>"; };
 		A9C7CE7CE5466514F5FA77A9D0CB0CB5 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
-		ABE74105B2194C867254270EE3E0488B /* Bluejay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bluejay.framework; path = Bluejay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE74105B2194C867254270EE3E0488B /* Bluejay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bluejay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4ACB1323246453F8DD3A4E8F24D1D5 /* ObjcExceptionBridging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcExceptionBridging.release.xcconfig; sourceTree = "<group>"; };
 		ACC0A57B0CD25682D180E3A7D2A9D2D9 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
 		AE6C164EC7C01E6EF9C7CCCFE870ADC2 /* CBManagerState+ReturnString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CBManagerState+ReturnString.swift"; path = "Bluejay/Bluejay/CBManagerState+ReturnString.swift"; sourceTree = "<group>"; };
@@ -427,18 +640,18 @@
 		C49328CF541EBBCEE8631878DC37F909 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XcodeColorsLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
 		C610B628ACC7AB56ADE48DA26D6F3C96 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
 		C653D9B2974CADA1F4235BC37B8F3BF7 /* ListenCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListenCharacteristic.swift; path = Bluejay/Bluejay/ListenCharacteristic.swift; sourceTree = "<group>"; };
-		C77AED5323547942902E67AC3D3F759B /* .swift-version */ = {isa = PBXFileReference; includeInIndex = 1; path = ".swift-version"; sourceTree = "<group>"; };
+		C77AED5323547942902E67AC3D3F759B /* .swift-version */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		C7CD4B31D2ECCD3D8366EEBE8F496ABB /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Bluejay/Bluejay/Error.swift; sourceTree = "<group>"; };
 		C83CF9DFFC031C9672D98BDFA4BD2726 /* Archive+ZIP64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+ZIP64.swift"; path = "Sources/ZIPFoundation/Archive+ZIP64.swift"; sourceTree = "<group>"; };
 		C84C998F83396C7B08090AA3DC0A5D53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		C87EAA435225E0AE3A8B74EEAA9518B1 /* XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCGLogger.modulemap; sourceTree = "<group>"; };
 		C9741B87BC9C5E89491F36AC9CCF84DA /* Bluejay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bluejay.h; path = Bluejay/Bluejay/Bluejay.h; sourceTree = "<group>"; };
-		CCA0CAFF4D52A1E218AAFC5E52ECF3FF /* MyBike_BLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyBike_BLE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCA0CAFF4D52A1E218AAFC5E52ECF3FF /* MyBike_BLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyBike_BLE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CCC5003B61907864CE5CBE54C600532C /* LogObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogObserver.swift; path = Bluejay/Bluejay/LogObserver.swift; sourceTree = "<group>"; };
 		CDC1EDFA4FE466939C09BC8AA3B23C72 /* XCGLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCGLogger.debug.xcconfig; sourceTree = "<group>"; };
 		CE8C9CD5B6ED69AB77E1A20358C8B81C /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
 		CEB8DC3A3166AE649A0241D1BE369E4A /* Archive+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Progress.swift"; path = "Sources/ZIPFoundation/Archive+Progress.swift"; sourceTree = "<group>"; };
-		CF4DE3159ED081F83B637908DE5E6CF2 /* Pods_MyBike_BLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyBike_BLE_Tests.framework; path = "Pods-MyBike_BLE_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4DE3159ED081F83B637908DE5E6CF2 /* Pods_MyBike_BLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBike_BLE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D190EDD30479B6BF9C5C8AF69CE7FBB3 /* Disconnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disconnection.swift; path = Bluejay/Bluejay/Disconnection.swift; sourceTree = "<group>"; };
 		D1E786EE57365DE852CC38F5C274C64D /* WriteResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WriteResult.swift; path = Bluejay/Bluejay/WriteResult.swift; sourceTree = "<group>"; };
 		D26D1D52741767A1A26994C0464CC781 /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogDetails.swift; path = Sources/XCGLogger/Misc/LogDetails.swift; sourceTree = "<group>"; };
@@ -471,7 +684,7 @@
 		F5A83C3156422BCDD21E2CDDFD1F1FAA /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevFilter.swift; path = Sources/XCGLogger/Filters/DevFilter.swift; sourceTree = "<group>"; };
 		F6624392D6784DCCC53A80F4188F1A02 /* ScanDiscovery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanDiscovery.swift; path = Bluejay/Bluejay/ScanDiscovery.swift; sourceTree = "<group>"; };
 		F773426546E630295EC8D4AF6FA9BE02 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
-		FC21E11599264BC8297EB97354A9423F /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCGLogger.framework; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC21E11599264BC8297EB97354A9423F /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC58777BE7953CE67E4EA47B87C3EF0D /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
 		FD14288F330E997CF14A92BD653D51BC /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Bluejay/Bluejay/Connection.swift; sourceTree = "<group>"; };
 		FDB52631FE1B83C59EFCD2692B04F474 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -646,7 +859,6 @@
 				94FD08E6CE5F2D0688B569BC9F8FA7F9 /* ObjcExceptionBridging */,
 				B3AC4347D5DD530F42BDFA91E6F0F433 /* Support Files */,
 			);
-			name = ObjcExceptionBridging;
 			path = ObjcExceptionBridging;
 			sourceTree = "<group>";
 		};
@@ -735,7 +947,6 @@
 				D1E786EE57365DE852CC38F5C274C64D /* WriteResult.swift */,
 				48AEDDCA65E353F209DA6F25A6B506FF /* Support Files */,
 			);
-			name = Bluejay;
 			path = Bluejay;
 			sourceTree = "<group>";
 		};
@@ -762,8 +973,392 @@
 				EC0D52975A164BE632DA8E740D61AD3D /* URL+ZIP.swift */,
 				378AF1CC3ED10707E4C6BD1BDB39026B /* Support Files */,
 			);
-			name = ZIPFoundation;
 			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		8FB4356B2762271400E9B6C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4356C2762271400E9B6C2 /* Production_BLE */,
+				8FB435882762271400E9B6C2 /* BLEProcedure-Bike.swift */,
+				8FB435892762271400E9B6C2 /* MyBike_BLE */,
+				8FB4358E2762271400E9B6C2 /* BikeBluejay+Promise.swift */,
+				8FB4358F2762271400E9B6C2 /* Common */,
+				8FB435EB2762271400E9B6C2 /* Model */,
+				8FB435F62762271400E9B6C2 /* BLEConstant-Bike.swift */,
+				8FB435F72762271400E9B6C2 /* MyBike_BLE-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FB4356C2762271400E9B6C2 /* Production_BLE */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4356D2762271400E9B6C2 /* BLEConstant-Production.swift */,
+				8FB4356E2762271400E9B6C2 /* BLEProcedure-Production.swift */,
+				8FB4356F2762271400E9B6C2 /* CANPacket */,
+				8FB435712762271400E9B6C2 /* Model */,
+			);
+			path = Production_BLE;
+			sourceTree = "<group>";
+		};
+		8FB4356F2762271400E9B6C2 /* CANPacket */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435702762271400E9B6C2 /* RawPacket.swift */,
+			);
+			path = CANPacket;
+			sourceTree = "<group>";
+		};
+		8FB435712762271400E9B6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435722762271400E9B6C2 /* StaticTest.swift */,
+				8FB435732762271400E9B6C2 /* Packets.swift */,
+				8FB435742762271400E9B6C2 /* Test.swift */,
+				8FB435752762271400E9B6C2 /* RemoteThrottle */,
+				8FB435772762271400E9B6C2 /* Error.swift */,
+				8FB435782762271400E9B6C2 /* DynamicTest.swift */,
+				8FB435792762271400E9B6C2 /* Commands.swift */,
+				8FB4357A2762271400E9B6C2 /* BluetoothSwitch.swift */,
+				8FB4357B2762271400E9B6C2 /* TestAbstraction.swift */,
+				8FB4357C2762271400E9B6C2 /* BLEName.swift */,
+				8FB4357D2762271400E9B6C2 /* BTObservers.swift */,
+				8FB4357E2762271400E9B6C2 /* TestBench.swift */,
+				8FB4357F2762271400E9B6C2 /* TestThreshold.swift */,
+				8FB435802762271400E9B6C2 /* CollectionPacketBuffer.swift */,
+				8FB435812762271400E9B6C2 /* Remote */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FB435752762271400E9B6C2 /* RemoteThrottle */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435762762271400E9B6C2 /* RemoteThrottle.swift */,
+			);
+			path = RemoteThrottle;
+			sourceTree = "<group>";
+		};
+		8FB435812762271400E9B6C2 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435822762271400E9B6C2 /* RemoteError.swift */,
+				8FB435832762271400E9B6C2 /* Remote-BLEProcedure-Production.swift */,
+				8FB435842762271400E9B6C2 /* RemoteTest.swift */,
+				8FB435852762271400E9B6C2 /* RemoteTestAbstract.swift */,
+				8FB435862762271400E9B6C2 /* RemotePacket.swift */,
+				8FB435872762271400E9B6C2 /* RemoteTestThresholds.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		8FB435892762271400E9B6C2 /* MyBike_BLE */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4358A2762271400E9B6C2 /* Classes */,
+				8FB4358C2762271400E9B6C2 /* Assets */,
+			);
+			path = MyBike_BLE;
+			sourceTree = "<group>";
+		};
+		8FB4358A2762271400E9B6C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4358B2762271400E9B6C2 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FB4358C2762271400E9B6C2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4358D2762271400E9B6C2 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8FB4358F2762271400E9B6C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435902762271400E9B6C2 /* Nordic */,
+				8FB435D92762271400E9B6C2 /* PromiseButton.swift */,
+				8FB435DA2762271400E9B6C2 /* BLEExtension.swift */,
+				8FB435DB2762271400E9B6C2 /* BLEError.swift */,
+				8FB435DC2762271400E9B6C2 /* Empty.xib */,
+				8FB435DD2762271400E9B6C2 /* BLESendable.swift */,
+				8FB435DE2762271400E9B6C2 /* BLEReadable.swift */,
+				8FB435DF2762271400E9B6C2 /* String+ZehusPrefix.swift */,
+				8FB435E02762271400E9B6C2 /* CommandReply.swift */,
+				8FB435E12762271400E9B6C2 /* DFUOTAUpdater.swift */,
+				8FB435E22762271400E9B6C2 /* Bluejay+Promise.swift */,
+				8FB435E32762271400E9B6C2 /* BLEConstant.swift */,
+				8FB435E42762271400E9B6C2 /* BLEProcedure-Common.swift */,
+				8FB435E52762271400E9B6C2 /* Remote */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8FB435902762271400E9B6C2 /* Nordic */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435912762271400E9B6C2 /* Subclasses */,
+				8FB435952762271400E9B6C2 /* Classes */,
+				8FB435D82762271400E9B6C2 /* Readme.md */,
+			);
+			path = Nordic;
+			sourceTree = "<group>";
+		};
+		8FB435912762271400E9B6C2 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435922762271400E9B6C2 /* ZehusServiceInitiatorProxy.swift */,
+				8FB435932762271400E9B6C2 /* ZehusServiceInitiator.swift */,
+				8FB435942762271400E9B6C2 /* ZehusDfuOtaError.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		8FB435952762271400E9B6C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435962762271400E9B6C2 /* .gitkeep */,
+				8FB435972762271400E9B6C2 /* Utilities */,
+				8FB435AB2762271400E9B6C2 /* Implementation */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FB435972762271400E9B6C2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435982762271400E9B6C2 /* DFUPackage */,
+				8FB4359D2762271400E9B6C2 /* Data.swift */,
+				8FB4359E2762271400E9B6C2 /* ZipArchive.swift */,
+				8FB4359F2762271400E9B6C2 /* Streams */,
+				8FB435A42762271400E9B6C2 /* HexToBinConverter */,
+				8FB435A62762271400E9B6C2 /* crc32.swift */,
+				8FB435A72762271400E9B6C2 /* Double.swift */,
+				8FB435A82762271400E9B6C2 /* Logging */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8FB435982762271400E9B6C2 /* DFUPackage */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435992762271400E9B6C2 /* Manifest */,
+			);
+			path = DFUPackage;
+			sourceTree = "<group>";
+		};
+		8FB435992762271400E9B6C2 /* Manifest */ = {
+			isa = PBXGroup;
+			children = (
+				8FB4359A2762271400E9B6C2 /* SoftdeviceBootloaderInfo.swift */,
+				8FB4359B2762271400E9B6C2 /* Manifest.swift */,
+				8FB4359C2762271400E9B6C2 /* ManifestFirmwareInfo.swift */,
+			);
+			path = Manifest;
+			sourceTree = "<group>";
+		};
+		8FB4359F2762271400E9B6C2 /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435A02762271400E9B6C2 /* DFUStreamBin.swift */,
+				8FB435A12762271400E9B6C2 /* DFUStreamHex.swift */,
+				8FB435A22762271400E9B6C2 /* DFUStream.swift */,
+				8FB435A32762271400E9B6C2 /* DFUStreamZip.swift */,
+			);
+			path = Streams;
+			sourceTree = "<group>";
+		};
+		8FB435A42762271400E9B6C2 /* HexToBinConverter */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435A52762271400E9B6C2 /* IntelHex2BinConverter.swift */,
+			);
+			path = HexToBinConverter;
+			sourceTree = "<group>";
+		};
+		8FB435A82762271400E9B6C2 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435A92762271400E9B6C2 /* LoggerHelper.swift */,
+				8FB435AA2762271400E9B6C2 /* LoggerDelegate.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		8FB435AB2762271400E9B6C2 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435AC2762271400E9B6C2 /* SecureDFU */,
+				8FB435B92762271400E9B6C2 /* GenericDFU */,
+				8FB435C02762271400E9B6C2 /* Firmware */,
+				8FB435C22762271400E9B6C2 /* DFUUuidHelper.swift */,
+				8FB435C32762271400E9B6C2 /* DFUServiceInitiator.swift */,
+				8FB435C42762271400E9B6C2 /* DFUSelector */,
+				8FB435C72762271400E9B6C2 /* LegacyDFU */,
+				8FB435D42762271400E9B6C2 /* DFUPeripheralSelectorDelegate.swift */,
+				8FB435D52762271400E9B6C2 /* DFUPeripheralSelector.swift */,
+				8FB435D62762271400E9B6C2 /* DFUServiceDelegate.swift */,
+				8FB435D72762271400E9B6C2 /* DFUServiceController.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		8FB435AC2762271400E9B6C2 /* SecureDFU */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435AD2762271400E9B6C2 /* DFU */,
+				8FB435B02762271400E9B6C2 /* Characteristics */,
+				8FB435B42762271400E9B6C2 /* Peripheral */,
+				8FB435B72762271400E9B6C2 /* Services */,
+			);
+			path = SecureDFU;
+			sourceTree = "<group>";
+		};
+		8FB435AD2762271400E9B6C2 /* DFU */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435AE2762271400E9B6C2 /* SecureDFUExecutor.swift */,
+				8FB435AF2762271400E9B6C2 /* SecureDFUServiceInitiator.swift */,
+			);
+			path = DFU;
+			sourceTree = "<group>";
+		};
+		8FB435B02762271400E9B6C2 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435B12762271400E9B6C2 /* SecureDFUPacket.swift */,
+				8FB435B22762271400E9B6C2 /* SecureDFUControlPoint.swift */,
+				8FB435B32762271400E9B6C2 /* ButtonlessDFU.swift */,
+			);
+			path = Characteristics;
+			sourceTree = "<group>";
+		};
+		8FB435B42762271400E9B6C2 /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435B52762271400E9B6C2 /* SecureDFUPeripheralDelegate.swift */,
+				8FB435B62762271400E9B6C2 /* SecureDFUPeripheral.swift */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		8FB435B72762271400E9B6C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435B82762271400E9B6C2 /* SecureDFUService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8FB435B92762271400E9B6C2 /* GenericDFU */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435BA2762271400E9B6C2 /* DFUExecutor.swift */,
+				8FB435BB2762271400E9B6C2 /* DFUCharacteristic.swift */,
+				8FB435BC2762271400E9B6C2 /* DFUController.swift */,
+				8FB435BD2762271400E9B6C2 /* DFUPeripheral.swift */,
+				8FB435BE2762271400E9B6C2 /* DFUPeripheralDelegate.swift */,
+				8FB435BF2762271400E9B6C2 /* DFUService.swift */,
+			);
+			path = GenericDFU;
+			sourceTree = "<group>";
+		};
+		8FB435C02762271400E9B6C2 /* Firmware */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435C12762271400E9B6C2 /* DFUFirmware.swift */,
+			);
+			path = Firmware;
+			sourceTree = "<group>";
+		};
+		8FB435C42762271400E9B6C2 /* DFUSelector */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435C52762271400E9B6C2 /* DFUStarterPeripheral.swift */,
+				8FB435C62762271400E9B6C2 /* DFUServiceSelector.swift */,
+			);
+			path = DFUSelector;
+			sourceTree = "<group>";
+		};
+		8FB435C72762271400E9B6C2 /* LegacyDFU */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435C82762271400E9B6C2 /* DFU */,
+				8FB435CB2762271400E9B6C2 /* Characteristics */,
+				8FB435CF2762271400E9B6C2 /* Peripherals */,
+				8FB435D22762271400E9B6C2 /* Services */,
+			);
+			path = LegacyDFU;
+			sourceTree = "<group>";
+		};
+		8FB435C82762271400E9B6C2 /* DFU */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435C92762271400E9B6C2 /* LegacyDFUExecutor.swift */,
+				8FB435CA2762271400E9B6C2 /* LegacyDFUServiceInitiator.swift */,
+			);
+			path = DFU;
+			sourceTree = "<group>";
+		};
+		8FB435CB2762271400E9B6C2 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435CC2762271400E9B6C2 /* DFUPacket.swift */,
+				8FB435CD2762271400E9B6C2 /* DFUVersion.swift */,
+				8FB435CE2762271400E9B6C2 /* DFUControlPoint.swift */,
+			);
+			path = Characteristics;
+			sourceTree = "<group>";
+		};
+		8FB435CF2762271400E9B6C2 /* Peripherals */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435D02762271400E9B6C2 /* LegacyDFUPeripheral.swift */,
+				8FB435D12762271400E9B6C2 /* LegacyDFUPeripheralDelegate.swift */,
+			);
+			path = Peripherals;
+			sourceTree = "<group>";
+		};
+		8FB435D22762271400E9B6C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435D32762271400E9B6C2 /* LegacyDFUService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8FB435E52762271400E9B6C2 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435E62762271400E9B6C2 /* Remote_BLEConstants.swift */,
+				8FB435E72762271400E9B6C2 /* BLEReadable-Remote.swift */,
+				8FB435E82762271400E9B6C2 /* BLEProcedure-Remote.swift */,
+				8FB435E92762271400E9B6C2 /* BLESendable-Remote.swift */,
+				8FB435EA2762271400E9B6C2 /* RemoteBleModel.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		8FB435EB2762271400E9B6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FB435EC2762271400E9B6C2 /* PowerMode.swift */,
+				8FB435ED2762271400E9B6C2 /* Maintenance.swift */,
+				8FB435EE2762271400E9B6C2 /* BikeParameters.swift */,
+				8FB435EF2762271400E9B6C2 /* BikePlusPowerMode.swift */,
+				8FB435F02762271400E9B6C2 /* BikePowerMode.swift */,
+				8FB435F12762271400E9B6C2 /* Faults.swift */,
+				8FB435F22762271400E9B6C2 /* EolData.swift */,
+				8FB435F32762271400E9B6C2 /* BikeMode.swift */,
+				8FB435F42762271400E9B6C2 /* KickScooterPowerMode.swift */,
+				8FB435F52762271400E9B6C2 /* Ride.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		94FD08E6CE5F2D0688B569BC9F8FA7F9 /* ObjcExceptionBridging */ = {
@@ -821,7 +1416,6 @@
 				0AB1884DD6ABE8653908217B5CABCD78 /* Support Files */,
 				E7480843FB532633026900240E22DBBC /* UIKit */,
 			);
-			name = PromiseKit;
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
@@ -855,6 +1449,7 @@
 		D2C835C253C8F3221F2060AB8D13E439 /* MyBike_BLE */ = {
 			isa = PBXGroup;
 			children = (
+				8FB4356B2762271400E9B6C2 /* Classes */,
 				FA42BE589D74E622089C086C74046BC9 /* Pod */,
 				0FDA264DE667E82F2F12795EBBE233E8 /* Support Files */,
 			);
@@ -882,7 +1477,6 @@
 				FE5F4884873F5C5167B9588840ECE647 /* Core */,
 				556A041CF40A86CF6CD657CBBB9165E7 /* Support Files */,
 			);
-			name = XCGLogger;
 			path = XCGLogger;
 			sourceTree = "<group>";
 		};
@@ -1016,6 +1610,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB436612762271400E9B6C2 /* MyBike_BLE-Bridging-Header.h in Headers */,
 				ADB3C6699B7424D2D290AF279EFA3ED7 /* Pods-MyBike_BLE_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1155,6 +1750,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					42BDD8DA4F2222B33B9B2A193655AA6C = {
+						LastSwiftMigration = 1250;
+					};
+					C2DC159E3F423505C7EF73BCC77A462B = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1192,6 +1795,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB436482762271400E9B6C2 /* Empty.xib in Resources */,
+				8FB436162762271400E9B6C2 /* .gitkeep in Resources */,
+				8FB436102762271400E9B6C2 /* .gitkeep in Resources */,
+				8FB436442762271400E9B6C2 /* Readme.md in Resources */,
+				8FB436112762271400E9B6C2 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,7 +1954,107 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB436022762271400E9B6C2 /* BluetoothSwitch.swift in Sources */,
+				8FB436532762271400E9B6C2 /* BLEProcedure-Remote.swift in Sources */,
+				8FB436512762271400E9B6C2 /* Remote_BLEConstants.swift in Sources */,
+				8FB4364F2762271400E9B6C2 /* BLEConstant.swift in Sources */,
+				8FB436142762271400E9B6C2 /* ZehusServiceInitiator.swift in Sources */,
+				8FB436332762271400E9B6C2 /* DFUFirmware.swift in Sources */,
+				8FB4360B2762271400E9B6C2 /* RemoteTest.swift in Sources */,
+				8FB436092762271400E9B6C2 /* RemoteError.swift in Sources */,
+				8FB4361A2762271400E9B6C2 /* Data.swift in Sources */,
+				8FB436202762271400E9B6C2 /* IntelHex2BinConverter.swift in Sources */,
+				8FB4361D2762271400E9B6C2 /* DFUStreamHex.swift in Sources */,
+				8FB436252762271400E9B6C2 /* SecureDFUExecutor.swift in Sources */,
+				8FB436602762271400E9B6C2 /* BLEConstant-Bike.swift in Sources */,
+				8FB435FA2762271400E9B6C2 /* RawPacket.swift in Sources */,
+				8FB436072762271400E9B6C2 /* TestThreshold.swift in Sources */,
+				8FB436152762271400E9B6C2 /* ZehusDfuOtaError.swift in Sources */,
+				8FB4361F2762271400E9B6C2 /* DFUStreamZip.swift in Sources */,
+				8FB436232762271400E9B6C2 /* LoggerHelper.swift in Sources */,
+				8FB436002762271400E9B6C2 /* DynamicTest.swift in Sources */,
+				8FB436402762271400E9B6C2 /* DFUPeripheralSelectorDelegate.swift in Sources */,
+				8FB435FE2762271400E9B6C2 /* RemoteThrottle.swift in Sources */,
+				8FB4362E2762271400E9B6C2 /* DFUCharacteristic.swift in Sources */,
+				8FB4362A2762271400E9B6C2 /* SecureDFUPeripheralDelegate.swift in Sources */,
+				8FB4365B2762271400E9B6C2 /* Faults.swift in Sources */,
+				8FB4360D2762271400E9B6C2 /* RemotePacket.swift in Sources */,
+				8FB436352762271400E9B6C2 /* DFUServiceInitiator.swift in Sources */,
+				8FB436422762271400E9B6C2 /* DFUServiceDelegate.swift in Sources */,
+				8FB436522762271400E9B6C2 /* BLEReadable-Remote.swift in Sources */,
+				8FB436132762271400E9B6C2 /* ZehusServiceInitiatorProxy.swift in Sources */,
+				8FB4365A2762271400E9B6C2 /* BikePowerMode.swift in Sources */,
+				8FB436552762271400E9B6C2 /* RemoteBleModel.swift in Sources */,
+				8FB4363A2762271400E9B6C2 /* DFUPacket.swift in Sources */,
+				8FB4362F2762271400E9B6C2 /* DFUController.swift in Sources */,
+				8FB436372762271400E9B6C2 /* DFUServiceSelector.swift in Sources */,
+				8FB4365F2762271400E9B6C2 /* Ride.swift in Sources */,
+				8FB436312762271400E9B6C2 /* DFUPeripheralDelegate.swift in Sources */,
+				8FB436492762271400E9B6C2 /* BLESendable.swift in Sources */,
+				8FB436412762271400E9B6C2 /* DFUPeripheralSelector.swift in Sources */,
+				8FB4362D2762271400E9B6C2 /* DFUExecutor.swift in Sources */,
+				8FB436282762271400E9B6C2 /* SecureDFUControlPoint.swift in Sources */,
+				8FB436382762271400E9B6C2 /* LegacyDFUExecutor.swift in Sources */,
+				8FB436592762271400E9B6C2 /* BikePlusPowerMode.swift in Sources */,
+				8FB436432762271400E9B6C2 /* DFUServiceController.swift in Sources */,
+				8FB4363D2762271400E9B6C2 /* LegacyDFUPeripheral.swift in Sources */,
+				8FB4364B2762271400E9B6C2 /* String+ZehusPrefix.swift in Sources */,
+				8FB436302762271400E9B6C2 /* DFUPeripheral.swift in Sources */,
+				8FB436042762271400E9B6C2 /* BLEName.swift in Sources */,
+				8FB436122762271400E9B6C2 /* BikeBluejay+Promise.swift in Sources */,
+				8FB4360E2762271400E9B6C2 /* RemoteTestThresholds.swift in Sources */,
+				8FB435FB2762271400E9B6C2 /* StaticTest.swift in Sources */,
+				8FB436212762271400E9B6C2 /* crc32.swift in Sources */,
+				8FB4362B2762271400E9B6C2 /* SecureDFUPeripheral.swift in Sources */,
+				8FB436572762271400E9B6C2 /* Maintenance.swift in Sources */,
+				8FB435F82762271400E9B6C2 /* BLEConstant-Production.swift in Sources */,
+				8FB4363B2762271400E9B6C2 /* DFUVersion.swift in Sources */,
+				8FB4365C2762271400E9B6C2 /* EolData.swift in Sources */,
+				8FB4361C2762271400E9B6C2 /* DFUStreamBin.swift in Sources */,
+				8FB436172762271400E9B6C2 /* SoftdeviceBootloaderInfo.swift in Sources */,
+				8FB4364A2762271400E9B6C2 /* BLEReadable.swift in Sources */,
+				8FB435FD2762271400E9B6C2 /* Test.swift in Sources */,
+				8FB436362762271400E9B6C2 /* DFUStarterPeripheral.swift in Sources */,
+				8FB4364C2762271400E9B6C2 /* CommandReply.swift in Sources */,
+				8FB436322762271400E9B6C2 /* DFUService.swift in Sources */,
+				8FB4365E2762271400E9B6C2 /* KickScooterPowerMode.swift in Sources */,
+				8FB4363C2762271400E9B6C2 /* DFUControlPoint.swift in Sources */,
+				8FB436012762271400E9B6C2 /* Commands.swift in Sources */,
+				8FB4365D2762271400E9B6C2 /* BikeMode.swift in Sources */,
+				8FB4361E2762271400E9B6C2 /* DFUStream.swift in Sources */,
+				8FB436342762271400E9B6C2 /* DFUUuidHelper.swift in Sources */,
+				8FB436262762271400E9B6C2 /* SecureDFUServiceInitiator.swift in Sources */,
 				7F07DECBE9CE72F7325CA00EA7DD2E91 /* Pods-MyBike_BLE_Tests-dummy.m in Sources */,
+				8FB436472762271400E9B6C2 /* BLEError.swift in Sources */,
+				8FB436562762271400E9B6C2 /* PowerMode.swift in Sources */,
+				8FB4360A2762271400E9B6C2 /* Remote-BLEProcedure-Production.swift in Sources */,
+				8FB436292762271400E9B6C2 /* ButtonlessDFU.swift in Sources */,
+				8FB4361B2762271400E9B6C2 /* ZipArchive.swift in Sources */,
+				8FB436192762271400E9B6C2 /* ManifestFirmwareInfo.swift in Sources */,
+				8FB436062762271400E9B6C2 /* TestBench.swift in Sources */,
+				8FB436392762271400E9B6C2 /* LegacyDFUServiceInitiator.swift in Sources */,
+				8FB436502762271400E9B6C2 /* BLEProcedure-Common.swift in Sources */,
+				8FB436272762271400E9B6C2 /* SecureDFUPacket.swift in Sources */,
+				8FB436582762271400E9B6C2 /* BikeParameters.swift in Sources */,
+				8FB436452762271400E9B6C2 /* PromiseButton.swift in Sources */,
+				8FB435F92762271400E9B6C2 /* BLEProcedure-Production.swift in Sources */,
+				8FB436242762271400E9B6C2 /* LoggerDelegate.swift in Sources */,
+				8FB436032762271400E9B6C2 /* TestAbstraction.swift in Sources */,
+				8FB4362C2762271400E9B6C2 /* SecureDFUService.swift in Sources */,
+				8FB4360C2762271400E9B6C2 /* RemoteTestAbstract.swift in Sources */,
+				8FB4363E2762271400E9B6C2 /* LegacyDFUPeripheralDelegate.swift in Sources */,
+				8FB4363F2762271400E9B6C2 /* LegacyDFUService.swift in Sources */,
+				8FB436052762271400E9B6C2 /* BTObservers.swift in Sources */,
+				8FB4364D2762271400E9B6C2 /* DFUOTAUpdater.swift in Sources */,
+				8FB436462762271400E9B6C2 /* BLEExtension.swift in Sources */,
+				8FB435FF2762271400E9B6C2 /* Error.swift in Sources */,
+				8FB436222762271400E9B6C2 /* Double.swift in Sources */,
+				8FB436542762271400E9B6C2 /* BLESendable-Remote.swift in Sources */,
+				8FB436182762271400E9B6C2 /* Manifest.swift in Sources */,
+				8FB435FC2762271400E9B6C2 /* Packets.swift in Sources */,
+				8FB4360F2762271400E9B6C2 /* BLEProcedure-Bike.swift in Sources */,
+				8FB436082762271400E9B6C2 /* CollectionPacketBuffer.swift in Sources */,
+				8FB4364E2762271400E9B6C2 /* Bluejay+Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1599,8 +2307,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1676,6 +2383,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1699,6 +2407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1712,11 +2421,15 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/MyBike_BLE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1920,6 +2633,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1943,6 +2657,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1988,11 +2704,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Classes/MyBike_BLE-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

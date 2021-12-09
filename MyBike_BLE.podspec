@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyBike_BLE'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of MyBike_BLE.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Luca1992' => 'lucadonetti@libero.it' }
-  s.source           = { :git => 'https://github.com/Luca1992/ZehusBLE.git', :tag => 1.0.0 }
+  s.source           = { :git => 'https://github.com/Luca1992/ZehusBLE.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'MyBike_BLE/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'MyBike_BLE' => ['MyBike_BLE/Assets/*.png']
