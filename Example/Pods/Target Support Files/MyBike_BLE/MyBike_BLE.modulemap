@@ -1,0 +1,6 @@
+framework module MyBike_BLE {
+  umbrella header "MyBike_BLE-umbrella.h"
+
+  export *
+  module * { export * }
+}
